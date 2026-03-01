@@ -143,9 +143,12 @@ Attachments work alongside @ mentions and context files. You can:
 
 Add persistent context files to your session:
 
-1. Type @ in the chat input
-2. Select files from the suggestion list
-3. These files remain available throughout the session
+1. Type @ in the chat input for quick selection
+2. Select files from the suggestion list, or
+3. Click the file icon in the session header to open the file selection modal with search
+4. Files remain available throughout the session
+
+For detailed information about context files and advanced usage, see the [Context System Guide](/guide/context-system).
 
 ### Session Management
 

@@ -105,9 +105,20 @@ User: @Project Plan Can you help me...
 For adding multiple files at once:
 
 1. Click the file icon in the session header
-2. Browse and select files
-3. Click "Add to Context"
-4. Files appear as chips in the session
+2. Use the search box to find files quickly
+3. Select multiple files using checkboxes
+4. Click "Add to Context"
+5. Files appear as chips in the session
+
+**Search Tips:**
+
+- **Fuzzy matching**: Type a few characters and the search finds files containing them in order
+  - Example: typing `proj` finds "Project-Overview.md", "proj-notes.md"
+  - Example: typing `doc` finds "Documentation.md", "guide-docs.md"
+- **Natural sort order**: Files are sorted lexicographically, so numbers sort naturally
+  - `file1.md` comes before `file2.md` which comes before `file10.md` (not alphabetically)
+- **Keyboard shortcuts**:
+  - **Enter**: Select the top-ranked search result
 
 ### Method 3: Drag and Drop
 

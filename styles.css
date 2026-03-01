@@ -490,6 +490,24 @@ If your plugin does not need CSS, delete this file.
 }
 
 /* File Picker Modal */
+.gemini-file-picker-search-container {
+	margin-bottom: 12px;
+}
+
+.gemini-file-picker-search {
+	width: 100%;
+	padding: 8px 12px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+	background: var(--background-primary);
+	font-size: var(--font-ui-small);
+}
+
+.gemini-file-picker-search:focus {
+	border-color: var(--interactive-accent);
+	outline: none;
+}
+
 .gemini-file-picker-list {
 	max-height: 400px;
 	overflow-y: auto;
@@ -512,6 +530,11 @@ If your plugin does not need CSS, delete this file.
 	background-color: var(--background-modifier-hover);
 }
 
+.gemini-file-picker-item-highlighted {
+	background-color: var(--background-modifier-active);
+	border-radius: 4px;
+}
+
 .gemini-file-picker-label {
 	flex: 1;
 	cursor: pointer;
@@ -529,6 +552,13 @@ If your plugin does not need CSS, delete this file.
 	padding: 8px 16px;
 	border-radius: 4px;
 	cursor: pointer;
+}
+
+.gemini-file-picker-no-results {
+	text-align: center;
+	padding: 20px;
+	color: var(--text-muted);
+	font-size: 14px;
 }
 
 /* Tool Execution Panel */
